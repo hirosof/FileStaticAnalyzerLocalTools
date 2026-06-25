@@ -12,13 +12,14 @@ dependencies = [
     "prompt-toolkit (>=3.0.52,<4.0.0)",
     "python-magic (>=0.4.27,<0.5.0)",
     "magika (>=1.0.3,<2.0.0)",
-    "py-tlsh (>=5.0.0,<6.0.0)",
     "lnkparse3 (>=1.6.0,<2.0.0)",
     "lief (>=0.17.6,<0.18.0)",
     "dotnetfile (>=0.2.10,<0.3.0)",
     "oletools (>=0.60.2,<0.61.0)",
     "typer (>=0.26.7,<0.27.0)",
-    "rehashes (>=0.3.0,<0.4.0)"
+    "rehashes (>=0.3.0,<0.4.0)",
+    "fastcrc (>=0.3.6,<0.4.0)",
+    "py-tlsh (>=5.0.0,<6.0.0)",
 ]
 
 [tool.poetry]
@@ -30,5 +31,6 @@ build-backend = "poetry.core.masonry.api"
 
 [dependency-groups]
 dev = [
-    "poethepoet (>=0.46.0,<0.47.0)"
+    "poethepoet (>=0.46.0,<0.47.0)",
+    "ruff (>=0.15.19,<0.16.0)"
 ]
